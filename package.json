@@ -1,0 +1,43 @@
+{
+  "name": "snoo-promise",
+  "version": "0.0.1",
+  "description": "A Promise based wrapper for Reddit.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "docs": "jsdoc -P ./package.json -r -R ./README.md --debug --verbose -d ./docs ./lib",
+    "lint": "standard --verbose | snazzy"
+  },
+  "author": "plumtree.io <team@plumtree.io>",
+  "contributors": [
+    {
+      "name": "Mike at plumtree.io <mike@plumtree.io>"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plumtree-io/snoo-promise"
+  },
+  "bugs": {
+    "url": "https://github.com/plumtree-io/snoo-promise/issues",
+    "email": "team@plumtree.io"
+  },
+  "keywords": [
+    "reddit",
+    "promise",
+    "api",
+    "wrapper",
+    "oauth",
+    "authentication"
+  ],
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "jsdoc": "^3.4.0",
+    "standard": "^7.1.2",
+    "snazzy": "^4.0.0"
+  }
+}
