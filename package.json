@@ -33,6 +33,9 @@
     "oauth",
     "authentication"
   ],
+  "dependencies": {
+    "request-promise": "^3.0.0"
+  },
   "license": "GPL-3.0",
   "devDependencies": {
     "mocha": "^2.5.3",
